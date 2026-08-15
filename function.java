@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class function {
     public static void main(String[] args){
-     
-       int result = sum();    
-       System.out.println(result);  
+     printName(); 
     }
      /*
         access modifier returnType nName(parameters){
@@ -12,7 +10,10 @@ public class function {
             return statement;
         }
         */
-      static int sum (){
+        static void printName(){
+        System.out.println("My name is Ankit");
+       }
+    /* static int sum (){
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter first number");
         int a = sc.nextInt();
@@ -22,4 +23,5 @@ public class function {
       //  System.out.println("The sum of two numbers is: " + c);
         return c;   
        }
+        */ 
 }
