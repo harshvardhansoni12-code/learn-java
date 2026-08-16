@@ -11,8 +11,6 @@ public class function {
             return statement;
         }
         */
-
-
         // NOTHING IS RETURNED FROM THIS FUNCTION
         static void sum(){
           System.out.println("Enter two numbers");
