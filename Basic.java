@@ -1,5 +1,3 @@
-import java.net.SocketImpl;
-import java.net.SocketPermission;
 import java.util.Scanner;
 
 public class Basic {

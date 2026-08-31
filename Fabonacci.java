@@ -13,7 +13,6 @@ public class Fabonacci {
       i = i + j ;
       j = next;
       s++;
-
        }
    }
 }
