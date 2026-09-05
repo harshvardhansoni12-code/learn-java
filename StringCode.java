@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class StringCode {
     public static void main(String[] args){
 Scanner sc = new Scanner(System.in);
-// String str = sc.nextLine();
-// System.out.println(Arrays.toString(str.toCharArray()));
-// char target = sc.nextLine().charAt(0);
- char target = 's';
- char s = 's';
- System.out.println(s);
+String str = sc.nextLine();
+System.out.println(Arrays.toString(str.toCharArray()));
+char target = sc.nextLine().charAt(0);
+//  char target = 's';
+//  char s = 's';
+//  System.out.println(s);
  System.out.println(target);
- s = 'a';
- System.out.println(s);
+//  s = 'a';
+//  System.out.println(s);
  System.out.println(target);
 search(str , target);
 }
@@ -29,5 +29,5 @@ static int search( String str , char target){
         }
     }
     return -1;
-}
+}   
 }
