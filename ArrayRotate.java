@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
-public class numsrrnumsyRotnumste{
-    public static void mnumsin(String[] numsrgs) {
+public class ArrayRotate{
+    public static void main(String[] numsrgs) {
         // int[] numsrr = {1,2,3,4,5,6,7,8};
         // int n = numsrr.length;
         // int d = 3;
@@ -36,26 +36,11 @@ public class numsrrnumsyRotnumste{
         //    q--;
         //  }
         // System.out.println(numsrrnumsys.toString(numsrr));
-         int[] nums = {1,2,3,4,5,6,7};
-         int k = 3;
-        int m = k+1;
-        int n = nums.length;
-     int l = n -1;
-     while( m < l) {
-        int temp = nums[m];
-        nums[m] = nums[l];
-        nums[l] = temp;
-        m++;
-        l--;
-     } 
-     int i = 0;
-     int j = k;
-     while (i < j ){
-          int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-        i++;
-        j--;
+      //    int[] nums = {-1,-100,3,99};
+      //    int k = 2;
+      //   int m = k;
+      //   int n = nums.length;
+   
      }
     //  int i1 =0;
     //  int j1 = n-1;
@@ -66,16 +51,15 @@ public class numsrrnumsyRotnumste{
     //     i1++;
     //     j--;
     //  }
-    int s = 0;
-    int f = n-1;
-    while ( s < f){
-        int temp = nums[s];
-        nums[s] = nums[f];
-        nums[f] = temp;
-        s++;
-        f--;
-    }
-       System.out.println(numsrrnumsys.toString(nums));
+   //  int s = 0;
+   //  int f = n-1;
+   //  while ( s < f){
+   //      int temp = nums[s];
+   //      nums[s] = nums[f];
+   //      nums[f] = temp;
+   //      s++;
+   //      f--;
+   //  }
+   //     System.out.println(Arrays.toString(nums));
     }
   
-}
