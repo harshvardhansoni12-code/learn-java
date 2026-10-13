@@ -22,11 +22,12 @@ public class arrayw {
     //Array store collection of datatype can be primitve objects or complex
     // stored variable datatype should be same 
     
-    // int[] arr = new int[5]; // store 5 rno 
-    // arr[0] = 1;
-    // arr[1] = 23;
-    // arr[3] = 34; 
-    //  System.out.println(Arrays.toString(arr));
+    int[] arr = new int[5]; // store 5 rno 
+    arr[0] = 1;
+    arr[1] = 23;
+    arr[3] = 34; 
+     System.out.println(arr[2]);
+     System.out.println(Arrays.toString(arr));
     //direct storing
     int[] rno = {1,3,5,7,9};
     System.out.println(Arrays.toString(rno));
