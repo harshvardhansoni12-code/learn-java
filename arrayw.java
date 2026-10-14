@@ -12,12 +12,12 @@ public class arrayw {
     //  System.out.println(name); np error in code
 
     // store 5 roll no:
+   //  int[] rno = new int[5];
    //  int rno1 = 12;
    //  int rno2 = 15;
    //  int rno3 = 18;
    //  int rno4 = 21;
    //  int rno5 = 32;
-
 
     //Array store collection of datatype can be primitve objects or complex
     // stored variable datatype should be same 

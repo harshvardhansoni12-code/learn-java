@@ -3,6 +3,10 @@
 /*
 syntax:
 data_type[] array_name = new data_type[size];
+OR
+data_type[] array_name = {value1, value2, value3, ...};
+<---length of array--->
+int length = array_name.length;
 */
 
 public class Array {
