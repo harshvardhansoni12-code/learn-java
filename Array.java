@@ -23,4 +23,9 @@ public class Array {
      roll_no1 = new int[5]; //here obj is being created(heap memory)
      System.out.println(roll_no1[3]);
     }
+
+    public static void sort(int[] nums1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sort'");
+    }
 }
