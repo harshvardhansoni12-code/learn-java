@@ -17,6 +17,10 @@ public class StackInBuilt {
     }
         stack.pop();
         System.out.println(stack);
+        stack.pop();
+        System.out.println(stack);
+        stack.pop();
+        System.out.println(stack);
         System.out.println(stack.peek());
     }
 }
