@@ -27,7 +27,7 @@ public class Pattern2 {
         }
 
 }
-      }}
+      }}}
 
 
 /* Pattern 2 */
