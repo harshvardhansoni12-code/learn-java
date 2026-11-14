@@ -1,5 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Deque;
+import java.util.ArrayDeque;
 //
 public class QueueBuilt {
     public static void main(String[] args){
@@ -10,9 +12,14 @@ public class QueueBuilt {
         queue.add(7);
         queue.add(1);
         System.out.println(queue);
-        queue.remove();
+        queue.remove(5);
         System.out.println(queue);
         System.out.println(queue.peek());
-        queue.isEmpty();    
+
+
+//Deque
+        Deque<Integer> deque = new ArrayDeque<>(); 
+        
+
     }
 }
